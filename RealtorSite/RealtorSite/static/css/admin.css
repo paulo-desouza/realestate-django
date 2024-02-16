@@ -1,0 +1,74 @@
+#header {
+    height: 50px;
+    background: #10284e;
+    color: #fff;
+}
+
+#branding h1 {
+    color: #FFF;
+}
+
+div.breadcrumbs {
+    background: #30caa0;
+    color: #2c4a7a;
+}
+
+div.breadcrumbs a:hover {
+    color: #2c4a7a;
+}
+
+div.breadcrumbs a,
+a.section:link,
+a.section:visited {
+    color: #333;
+}
+
+.module caption {
+    background: #30caa0;
+}
+
+a.section:link {
+    color: #333;
+}
+
+:root {
+    --primary:#30caa0 ;
+}
+
+#nav-sidebar .current-app .section:link {
+    color: #10284e;
+}
+
+a.section:focus,
+a.section:hover {
+    color: #2c4a7a;
+}
+
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+    background: #10284e;
+    color: #fff;
+}
+
+.button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+.button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="submit"].default:hover {
+    background: #2c4a7a;
+}
+
+.button.default,
+input[type="submit"].default,
+.submit-row input.default {
+    background: #10284e;
+    color: #fff;
+}
